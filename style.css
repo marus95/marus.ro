@@ -977,7 +977,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
-    padding: 2rem;
+    padding: 3rem;
     letter-spacing: 6px;
   }
 
@@ -1040,6 +1040,7 @@
     max-width: 1300px;
       margin: 0 auto;
       text-align: center;
+      height: 100vh;
   }
 
 
@@ -1049,7 +1050,7 @@
   
   .single-content img {
 
-    justify-content: center;
+    
       width: 410px;
       height: 100%;
       margin: 10px;
@@ -1379,7 +1380,13 @@ form .form-row .textarea{
     .portfolio-section{
       padding: 2px 2px;
       margin: 0;
+      height: 100vh;
       
+      
+    }
+
+    .content{
+      max-width: 300px;
     }
 
     .text__title-icon{
@@ -1392,29 +1399,32 @@ form .form-row .textarea{
       margin: 0 4px;
     }
 
-   .content {
-     
-    display: flex;
-    flex-direction: column;
-    
-    justify-content: center;
-    
-   }
-   .p2{
-    text-align: center;
-   }
+
+
+
+
+
+    .p2{
+      text-align: center;
+     }
+
+
 
     .single-content img {
-      
+
       width: 280px;
       height: 100%;
-      margin: 10px;
+      margin: 10 auto;
+      
 
   }
 
 }
 
 @media (max-width: 700px) {
+  .container{
+    max-width: auto;
+  }
   .container .text{
     font-size: 30px;
   }
